@@ -12,16 +12,11 @@
 ## 📦 **Installation**
 ### 1️⃣ **With `pipx` (Recommended)**
 ```bash
-pipx install pyinit
+pipx install git+https://github.com/AlessandroBertozzi/pyinit.git
 ```
-✅ This allows using `pyinit` globally without polluting the system.
+✅ Thi️s allows using `pyinit` globally without polluting the system.
 
-### 2️⃣ **With `pip`**
-```bash
-pip install pyinit
-```
-
-### 3️⃣ **For Developers (Local Installation)**
+### 2️⃣️⃣   Developers (Local Installation)**
 If you want to modify the code:
 ```bash
 git clone https://github.com/your-username/pyinit.git
