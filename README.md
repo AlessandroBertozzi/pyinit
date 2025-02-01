@@ -19,7 +19,7 @@ pipx install git+https://github.com/AlessandroBertozzi/pyinit.git
 ### 2️⃣️ For Developers **(Local Installation)**
 If you want to modify the code:
 ```bash
-git clone https://github.com/your-username/pyinit.git
+git clone https://github.com/AlessandroBertozzi/pyinit.git
 cd pyinit
 pipx install .
 ```
