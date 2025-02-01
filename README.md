@@ -16,7 +16,7 @@ pipx install git+https://github.com/AlessandroBertozzi/pyinit.git
 ```
 ✅ Thi️s allows using `pyinit` globally without polluting the system.
 
-### 2️⃣️⃣   Developers (Local Installation)**
+### 2️⃣️ For Developers (Local Installation)**
 If you want to modify the code:
 ```bash
 git clone https://github.com/your-username/pyinit.git
