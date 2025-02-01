@@ -3,9 +3,8 @@
 **PyInit** is a CLI tool that automates the creation of a structured Python project, configuring a **virtual environment (`venv`)** or **Poetry**, and optionally adding a **Dockerfile**.
 
 ✅ **Generates a structured Python project**  
-✅ **Supports both `venv` and Poetry**  
-✅ **Advanced logs and a progress bar (with `rich`)**  
-✅ **Works with `pipx` for global installation**  
+✅ **Supports both `venv` and Poetry** 
+✅ **Works with `pipx` for global installation**
 
 ---
 
@@ -14,15 +13,7 @@
 ```bash
 pipx install git+https://github.com/AlessandroBertozzi/pyinit.git
 ```
-✅ Thi️s allows using `pyinit` globally without polluting the system.
-
-### 2️⃣️ For Developers **(Local Installation)**
-If you want to modify the code:
-```bash
-git clone https://github.com/AlessandroBertozzi/pyinit.git
-cd pyinit
-pipx install .
-```
+Thi️s allows using `pyinit` globally without polluting the system.
 
 ---
 
@@ -31,28 +22,28 @@ pipx install .
 ```bash
 pyinit my_project
 ```
-✔️ **Creates a structured project folder**  
-✔️ **Generates a virtual environment**  
-✔️ **Installs `pytest` and `black`**  
+- **Creates a structured project folder**  
+- **Generates a virtual environment**  
+- **Installs `pytest` and `black`**  
 
 ### 2️⃣ **Use Poetry Instead of venv**
 ```bash
 pyinit my_project --poetry
 ```
-✔️ **Initializes Poetry and adds dependencies**  
-✔️ **Uses `pipx run poetry` if Poetry isn't globally installed**  
+- **Initializes Poetry and adds dependencies**  
+- **Uses `pipx run poetry` if Poetry isn't globally installed**  
 
 ### 3️⃣ **Add a Dockerfile**
 ```bash
 pyinit my_project --docker
 ```
-✔️ **Generates a ready-to-use `Dockerfile`**  
+- **Generates a ready-to-use `Dockerfile`**  
 
 ### 4️⃣ **Use All Options**
 ```bash
 pyinit my_project --poetry --docker
 ```
-✔️ **Creates a fully configured project with Poetry and Docker!**  
+- **Creates a fully configured project with Poetry and Docker**  
 
 ---
 
@@ -75,19 +66,6 @@ my_project/
 │── setup.py           # Package configuration
 │── Dockerfile         # (optional)
 │── README.md
-```
-
----
-
-## 🔥 **Example Output**
-When you run `pyinit`, you'll see clear, interactive output:
-
-```bash
-🚀 Creating project `my_project`...
-📂 Generating project structure... [██████████] 100%
-🐍 Setting up virtual environment...
-📦 Installing dependencies... [██████████] 100%
-✅ Project `my_project` successfully created!
 ```
 
 ---
