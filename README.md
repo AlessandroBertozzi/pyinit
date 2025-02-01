@@ -198,4 +198,4 @@ pip uninstall pyinit   # If installed with pip
 
 ## 🏆 **License**
 Distributed under the **MIT License**.  
-Created by **[Your Name]**, inspired by the need to streamline Python project setup. 🚀
+Created by **Alessandro Bertozzi**, inspired by the need to streamline Python project setup. 🚀
