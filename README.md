@@ -3,7 +3,9 @@
 **PyInit** is a CLI tool that automates the creation of a structured Python project, configuring a **virtual environment (`venv`)** or **Poetry**, and optionally adding a **Dockerfile**.
 
 ✅ **Generates a structured Python project**  
-✅ **Supports both `venv` and Poetry** 
+
+✅ **Supports both `venv` and Poetry**
+
 ✅ **Works with `pipx` for global installation**
 
 ---
